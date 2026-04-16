@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POCKETXTRA | PRODUCT SOLUTIONS | SD123</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* =========================================
+           BRUTE FORCE RESET: Killing the Gaps
+           Custom Method: Negative margin correction 
+           and viewport-forcing for Elementor.
+           ========================================= */
+        :host, .sd-outer-container {
+            display: block;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100vw !important;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw !important;
+            margin-right: -50vw !important;
+        }
+
+        .elementor-widget-html, 
+        .elementor-widget-container,
+        .elementor-column,
+        .elementor-section {
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: visible !important; 
+        }
+
+        :root {
+            --navy: #0D2137;
+            --brand-blue: #007BFF;
+            --brand-orange: #FF8E2B;
+            --text-white: #FFFFFF;
+        }
+
+        body {
+            background-color: var(--navy);
+            color: var(--text-white);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .sd-wrapper {
+            background-color: var(--navy);
+            width: 100%;
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+
+        .mesh-bg {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: -2;
+            pointer-events: none;
+            background: 
+                radial-gradient(circle at 15% 15%, rgba(0, 123, 255, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 85% 85%, rgba(255, 142, 43, 0.1) 0%, transparent 40%);
+        }
+
+        .tight { letter-spacing: -0.04em; }
+
+        .heading-solid {
+            color: #FFFFFF !important;
+            opacity: 1 !important;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        /* NEW STAGGERED PILL DESIGN STYLES */
+        .feature-pill {
+            position: relative;
+            background: rgba(13, 33, 55, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 120px;
+            transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+            overflow: hidden;
+            min-height: 240px;
+            display: flex;
+            align-items: center;
+        }
+
+        .pill-bg-img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.25; 
+            transition: transform 0.8s ease, opacity 0.6s ease;
+            filter: grayscale(30%);
+        }
+
+        .feature-pill:hover .pill-bg-img {
+            transform: scale(1.08);
+            opacity: 0.45;
+            filter: grayscale(0%);
+        }
+
+        .feature-pill:hover {
+            border-color: var(--brand-blue);
+            box-shadow: 0 25px 60px rgba(0, 123, 255, 0.25);
+            transform: translateY(-8px);
+        }
+
+        .symbol-box {
+            background: var(--brand-orange);
+            color: var(--navy);
+            border-radius: 50%;
+            width: 85px;
+            height: 85px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            box-shadow: 0 0 25px rgba(255, 142, 42, 0.5);
+            z-index: 2;
+        }
+
+        .category-label {
+            color: #FFFFFF !important;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            text-shadow: 0 0 15px rgba(0, 123, 255, 0.4);
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-in {
+            animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .cta-button {
+            transition: all 0.4s ease;
+            border: 1px solid var(--brand-blue);
+            background: var(--brand-blue);
+            color: white !important;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background: transparent;
+            box-shadow: 0 0 25px rgba(0, 123, 255, 0.4);
+            transform: scale(1.02);
+        }
+
+        .dot-marker {
+            width: 8px;
+            height: 8px;
+            background: var(--brand-orange);
+            display: inline-block;
+            transform: rotate(45deg);
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .benefit-tag {
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            color: var(--brand-orange);
+            font-weight: 800;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+
+<!--AUTO GENERATED BY CODVERTER.COM-->
+<script src="scripts.js"></script>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="sd-outer-container">
+        <div class="sd-wrapper">
+            <div class="mesh-bg"></div>
+
+            <section class="min-h-[90vh] flex flex-col justify-center px-6 md:px-20 relative overflow-hidden">
+                <div class="absolute inset-0" style="z-index: -1;">
+                    <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=2532&auto=format&fit=crop" 
+                         class="w-full h-full object-cover opacity-60 scale-105" alt="PocketXtra Hero" style="display: block;">
+                    <div class="absolute inset-0 bg-gradient-to-r from-[#0D2137] via-[#0D2137]/60 to-transparent"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0D2137] via-transparent to-transparent"></div>
+                </div>
+
+                <div class="max-w-6xl z-10 relative">
+                    <h2 class="text-[#FF8E2B] font-bold tracking-[0.5em] uppercase mb-4 animate-in text-sm">Product Spotlight // PocketXtra</h2>
+                    <h1 class="text-[11vw] md:text-[8vw] heading-solid leading-[0.9] tight animate-in">
+                        AI Workforce<br>
+                        <span class="text-[#007BFF]">Wingman.</span>
+                    </h1>
+                    <p class="mt-8 text-lg md:text-2xl text-white max-w-2xl font-bold animate-in" style="animation-delay: 0.2s;">
+                        "Smart. Fast. Unstoppable." — High-performance predictive ops for SMEs to global giants.
+                    </p>
+                    
+                    <div class="mt-12 flex flex-wrap gap-6 animate-in" style="animation-delay: 0.4s;">
+                        <button class="cta-button px-12 py-5 rounded-full font-black text-xs uppercase tracking-widest">
+                            ● Deploy PocketXtra
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-32 px-6 md:px-20 bg-white/[0.02] border-y border-white/5 relative">
+                <div class="max-w-7xl mx-auto">
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+                        <div class="lg:col-span-7">
+                            <h3 class="text-5xl md:text-7xl heading-solid leading-none mb-10">
+                                What is <br><span class="text-[#FF8E2B]">PocketXtra?</span>
+                            </h3>
+                            <p class="text-xl md:text-3xl text-white leading-snug font-bold mb-10">
+                                A digital-first solution built to revolutionize <span class="border-b-2 border-[#007BFF]">Event Management</span>. 
+                            </p>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div class="flex gap-4">
+                                    <span class="dot-marker mt-2 flex-shrink-0"></span>
+                                    <p class="text-white text-base font-semibold">AI-driven platform for staff management and real-time coordination at any scale.</p>
+                                </div>
+                                <div class="flex gap-4">
+                                    <span class="dot-marker mt-2 flex-shrink-0"></span>
+                                    <p class="text-white text-base font-semibold">Analytics-powered insights for optimal staffing and attendee engagement.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:col-span-5 relative group">
+                            <div class="absolute -inset-2 bg-brand-blue/30 blur-2xl opacity-50"></div>
+                            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop" 
+                                 class="relative z-10 rounded-lg border border-white/10" alt="Live Analytics Dashboard">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-32 px-6 md:px-20 relative">
+                <div class="max-w-7xl mx-auto">
+                    <div class="mb-24 text-center">
+                        <h2 class="text-6xl md:text-8xl heading-solid leading-none">Key Features</h2>
+                        <div class="h-2 w-48 bg-brand-blue mx-auto mt-6"></div>
+                    </div>
+
+                    <div class="flex flex-col gap-12">
+                        <div class="flex justify-end w-full">
+                            <div class="feature-pill w-full lg:w-[85%] p-8 md:p-12 gap-8">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" class="pill-bg-img" alt="Dashboard">
+                                <div class="symbol-box">
+                                    <i data-lucide="layout-template" size="36"></i>
+                                </div>
+                                <div class="max-w-2xl text-left">
+                                    <h4 class="text-3xl md:text-4xl font-black uppercase text-white mb-2">User Dashboard</h4>
+                                    <p class="text-lg text-white/80 font-medium leading-relaxed">Full operational control via a sleek, minimalist interface designed for high-speed decision making.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start w-full">
+                            <div class="feature-pill w-full lg:w-[85%] p-8 md:p-12 gap-8 flex-row-reverse text-right">
+                                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop" class="pill-bg-img" alt="Secure">
+                                <div class="symbol-box bg-blue-600 text-white">
+                                    <i data-lucide="shield-check" size="36"></i>
+                                </div>
+                                <div class="max-w-2xl">
+                                    <h4 class="text-3xl md:text-4xl font-black uppercase text-white mb-2">Secure Assets</h4>
+                                    <p class="text-lg text-white/80 font-medium leading-relaxed">Ironclad financial security and encrypted channels for all workforce payments and sensitive data.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end w-full">
+                            <div class="feature-pill w-full lg:w-[85%] p-8 md:p-12 gap-8">
+                                <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=2006&auto=format&fit=crop" class="pill-bg-img" alt="Realtime">
+                                <div class="symbol-box">
+                                    <i data-lucide="zap" size="36"></i>
+                                </div>
+                                <div class="max-w-2xl text-left">
+                                    <h4 class="text-3xl md:text-4xl font-black uppercase text-white mb-2">Real-Time Ops</h4>
+                                    <p class="text-lg text-white/80 font-medium leading-relaxed">Live coordination and GPS status updates for staff across venues, ensuring total deployment visibility.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start w-full">
+                            <div class="feature-pill w-full lg:w-[85%] p-8 md:p-12 gap-8 flex-row-reverse text-right">
+                                <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=2070&auto=format&fit=crop" class="pill-bg-img" alt="Mobile">
+                                <div class="symbol-box bg-blue-600 text-white">
+                                    <i data-lucide="smartphone" size="36"></i>
+                                </div>
+                                <div class="max-w-2xl">
+                                    <h4 class="text-3xl md:text-4xl font-black uppercase text-white mb-2">Mobile First</h4>
+                                    <p class="text-lg text-white/80 font-medium leading-relaxed">Engineered for responsiveness. Access every tool from your smartphone, keeping your workforce in your pocket.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end w-full">
+                            <div class="feature-pill w-full lg:w-[85%] p-8 md:p-12 gap-8">
+                                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2070&auto=format&fit=crop" class="pill-bg-img" alt="Cyber Security">
+                                <div class="symbol-box">
+                                    <i data-lucide="lock" size="36"></i>
+                                </div>
+                                <div class="max-w-2xl text-left">
+                                    <h4 class="text-3xl md:text-4xl font-black uppercase text-white mb-2">Data Guard</h4>
+                                    <p class="text-lg text-white/80 font-medium leading-relaxed">Military-grade protection protocols that ensure your enterprise secrets and operational logs are safe.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-start w-full">
+                            <div class="feature-pill w-full lg:w-[85%] p-8 md:p-12 gap-8 flex-row-reverse text-right">
+                                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop" class="pill-bg-img" alt="Sync">
+                                <div class="symbol-box bg-blue-600 text-white">
+                                    <i data-lucide="refresh-cw" size="36"></i>
+                                </div>
+                                <div class="max-w-2xl">
+                                    <h4 class="text-3xl md:text-4xl font-black uppercase text-white mb-2">Seamless Sync</h4>
+                                    <p class="text-lg text-white/80 font-medium leading-relaxed">Plug and play with your current ERP, HR, and AI ecosystems for a unified global operations flow.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-32 px-6 md:px-20 bg-black/30 border-t border-white/10 relative">
+                <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24">
+                    <div>
+                        <h2 class="text-5xl heading-solid mb-12">Who Is It <span class="text-[#007BFF]">For?</span></h2>
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-6 p-6 border-l-4 border-brand-blue bg-white/5 transition-all">
+                                <span class="text-2xl font-black text-brand-orange">01</span>
+                                <h4 class="text-3xl category-label uppercase">SMEs</h4>
+                            </div>
+                            <div class="flex items-center gap-6 p-6 border-l-4 border-brand-blue bg-white/5 transition-all">
+                                <span class="text-2xl font-black text-brand-orange">02</span>
+                                <h4 class="text-3xl category-label uppercase">Startups</h4>
+                            </div>
+                            <div class="flex items-center gap-6 p-6 border-l-4 border-brand-blue bg-white/5 transition-all">
+                                <span class="text-2xl font-black text-brand-orange">03</span>
+                                <h4 class="text-3xl category-label uppercase">Enterprises</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="text-5xl heading-solid mb-12">The <span class="text-[#FF8E2B]">Benefits</span></h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="p-8 border border-white/10 bg-white/[0.05] rounded-lg">
+                                <span class="benefit-tag">EFFICIENCY</span>
+                                <h4 class="text-lg font-black uppercase mb-2 text-white">Saves Time</h4>
+                                <p class="text-xs text-white/70 font-semibold">Automate scheduling in seconds.</p>
+                            </div>
+                            <div class="p-8 border border-white/10 bg-white/[0.05] rounded-lg">
+                                <span class="benefit-tag">FINANCIAL</span>
+                                <h4 class="text-lg font-black uppercase mb-2 text-white">Reduces Costs</h4>
+                                <p class="text-xs text-white/70 font-semibold">Optimal staffing prevention.</p>
+                            </div>
+                            <div class="p-8 border border-white/10 bg-white/[0.05] rounded-lg">
+                                <span class="benefit-tag">TRUST</span>
+                                <h4 class="text-lg font-black uppercase mb-2 text-white">Transparency</h4>
+                                <p class="text-xs text-white/70 font-semibold">Real-time accountability logs.</p>
+                            </div>
+                            <div class="p-8 border border-white/10 bg-white/[0.05] rounded-lg">
+                                <span class="benefit-tag">PERFORMANCE</span>
+                                <h4 class="text-lg font-black uppercase mb-2 text-white">Improves Ops</h4>
+                                <p class="text-xs text-white/70 font-semibold">Data-driven performance boosts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="bg-[#FF8E2B] py-6 overflow-hidden relative">
+                <div class="flex whitespace-nowrap font-black text-5xl md:text-7xl uppercase text-[#0D2137]" style="animation: scroll 25s linear infinite;">
+                    ✦ POCKETXTRA ✦ SMART ✦ FAST ✦ UNSTOPPABLE ✦ POCKETXTRA ✦ SMART ✦ FAST ✦ UNSTOPPABLE ✦&nbsp;
+                    ✦ POCKETXTRA ✦ SMART ✦ FAST ✦ UNSTOPPABLE ✦ POCKETXTRA ✦ SMART ✦ FAST ✦ UNSTOPPABLE ✦&nbsp;
+                </div>
+            </div>
+
+            <section class="py-32 text-center relative overflow-hidden border-t border-white/10">
+                <div class="z-10 relative">
+                    <h3 class="text-5xl md:text-6xl heading-solid mb-12">Ready to wingman<br>your workforce?</h3>
+                    <button class="cta-button px-20 py-6 rounded-full font-black uppercase tracking-[0.2em] hover:bg-white hover:text-navy text-sm">
+                        Request Product Demo
+                    </button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
