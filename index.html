@@ -1,0 +1,1275 @@
+path=bhagavathy_amman_clothing.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SBC — Bhagavathy Amman Clothing | Premium Cotton Knitted Fabrics, Tirupur</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0f1a;
+  --bg2: #0e1525;
+  --bg3: #121a2e;
+  --surface: #161e33;
+  --surface2: #1a2440;
+  --accent: #c9944a;
+  --accent2: #e8b86d;
+  --gold: #f0c75e;
+  --gold-glow: rgba(240,199,94,.15);
+  --teal: #2dd4bf;
+  --teal-glow: rgba(45,212,191,.12);
+  --white: #f0ece4;
+  --white2: #d8d2c6;
+  --muted: #7a8599;
+  --glass: rgba(22,30,51,.7);
+  --glass-border: rgba(201,148,74,.2);
+  --r: 16px;
+  --r-lg: 24px;
+  --shadow: 0 20px 60px rgba(0,0,0,.35);
+  --shadow-lg: 0 40px 100px rgba(0,0,0,.5);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--white);overflow-x:hidden}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg2)}
+::-webkit-scrollbar-thumb{background:var(--accent);border-radius:10px}
+
+/* Grain Overlay */
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:0;opacity:.5}
+
+/* ===== NAVBAR ===== */
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 5%;display:flex;align-items:center;justify-content:space-between;background:rgba(10,15,26,.6);backdrop-filter:blur(24px);border-bottom:1px solid rgba(201,148,74,.1);transition:all .3s}
+nav.scrolled{padding:10px 5%;background:rgba(10,15,26,.92);box-shadow:0 4px 30px rgba(0,0,0,.3)}
+.nav-logo{display:flex;align-items:center;gap:14px;text-decoration:none}
+.logo-3d{width:52px;height:52px;position:relative;perspective:500px}
+.logo-cube{width:100%;height:100%;position:relative;transform-style:preserve-3d;animation:logospin 8s linear infinite}
+@keyframes logospin{0%{transform:rotateY(0) rotateX(10deg)}100%{transform:rotateY(360deg) rotateX(10deg)}}
+.logo-face{position:absolute;width:52px;height:52px;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-weight:900;font-size:16px;color:#fff;border-radius:10px;backface-visibility:visible}
+.logo-front{background:linear-gradient(135deg,var(--accent),var(--gold));transform:translateZ(26px)}
+.logo-back{background:linear-gradient(135deg,#2dd4bf,#14b8a6);transform:rotateY(180deg) translateZ(26px)}
+.logo-right{background:linear-gradient(135deg,var(--accent2),var(--accent));transform:rotateY(90deg) translateZ(26px)}
+.logo-left{background:linear-gradient(135deg,#14b8a6,var(--gold));transform:rotateY(-90deg) translateZ(26px)}
+.logo-top{background:linear-gradient(135deg,var(--gold),var(--accent));transform:rotateX(90deg) translateZ(26px);font-size:11px}
+.logo-bottom{background:linear-gradient(135deg,var(--accent),#14b8a6);transform:rotateX(-90deg) translateZ(26px);font-size:11px}
+.logo-text-wrap{line-height:1.15}
+.logo-name{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:var(--white)}
+.logo-tag{font-size:10px;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
+.nav-links{display:flex;align-items:center;gap:32px;list-style:none}
+.nav-links a{text-decoration:none;color:var(--white2);font-size:13px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;position:relative;transition:color .25s}
+.nav-links a::after{content:'';position:absolute;bottom:-4px;left:50%;width:0;height:2px;background:var(--accent);transition:all .3s;transform:translateX(-50%);border-radius:2px}
+.nav-links a:hover{color:var(--gold)}
+.nav-links a:hover::after{width:100%}
+.nav-cta{background:linear-gradient(135deg,var(--accent),var(--gold))!important;color:var(--bg)!important;padding:10px 24px!important;border-radius:100px!important;font-weight:700!important;box-shadow:0 4px 20px rgba(201,148,74,.35);transition:transform .25s,box-shadow .25s!important}
+.nav-cta:hover{transform:translateY(-2px)!important;box-shadow:0 8px 30px rgba(201,148,74,.5)!important}
+.nav-cta::after{display:none!important}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:8px}
+.hamburger span{width:24px;height:2px;background:var(--white);border-radius:2px;transition:all .3s}
+.mobile-nav{display:none;position:fixed;inset:0;z-index:999;background:var(--bg);flex-direction:column;align-items:center;justify-content:center;gap:32px}
+.mobile-nav.open{display:flex}
+.mobile-nav a{font-family:'Playfair Display',serif;font-size:26px;color:var(--white);text-decoration:none;font-weight:700}
+.mobile-nav-close{position:absolute;top:24px;right:24px;font-size:28px;cursor:pointer;background:none;border:none;color:var(--white)}
+
+/* ===== HERO ===== */
+#home{min-height:100vh;display:flex;align-items:center;padding:120px 5% 80px;position:relative;overflow:hidden}
+.hero-orbs{position:absolute;inset:0;pointer-events:none}
+.hero-orb{position:absolute;border-radius:50%;filter:blur(80px);animation:orbFloat 10s ease-in-out infinite}
+.hero-orb-1{width:600px;height:600px;background:radial-gradient(circle,rgba(201,148,74,.15),transparent);top:-10%;right:-10%;animation-delay:0s}
+.hero-orb-2{width:400px;height:400px;background:radial-gradient(circle,rgba(45,212,191,.1),transparent);bottom:10%;left:-5%;animation-delay:3s}
+.hero-orb-3{width:300px;height:300px;background:radial-gradient(circle,rgba(240,199,94,.08),transparent);top:40%;left:40%;animation-delay:6s}
+@keyframes orbFloat{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(30px,-20px) scale(1.05)}66%{transform:translate(-20px,30px) scale(.95)}}
+.hero-grid-lines{position:absolute;inset:0;background-image:linear-gradient(rgba(201,148,74,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(201,148,74,.04) 1px,transparent 1px);background-size:80px 80px;mask-image:radial-gradient(ellipse 60% 60% at 50% 50%,black,transparent)}
+.hero-inner{max-width:1300px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(201,148,74,.1);border:1px solid rgba(201,148,74,.2);padding:8px 18px;border-radius:100px;font-size:11.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--accent2);margin-bottom:28px;opacity:0;animation:fadeUp .8s .2s forwards}
+.hero-badge-dot{width:8px;height:8px;background:var(--teal);border-radius:50%;animation:pulse 2s infinite;box-shadow:0 0 12px rgba(45,212,191,.5)}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.5)}}
+.hero-title{font-family:'Playfair Display',serif;font-size:clamp(38px,5.5vw,72px);font-weight:900;line-height:1.05;color:var(--white);letter-spacing:-.02em;margin-bottom:24px;opacity:0;animation:fadeUp .8s .4s forwards}
+.hero-title em{font-style:italic;background:linear-gradient(135deg,var(--accent),var(--gold),var(--teal));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-sub{font-size:17px;line-height:1.75;color:var(--muted);max-width:480px;margin-bottom:40px;opacity:0;animation:fadeUp .8s .6s forwards}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap;opacity:0;animation:fadeUp .8s .8s forwards}
+.btn-glow{padding:16px 36px;border-radius:100px;background:linear-gradient(135deg,var(--accent),var(--gold));color:var(--bg);text-decoration:none;font-size:14px;font-weight:700;letter-spacing:.04em;box-shadow:0 8px 30px rgba(201,148,74,.4),0 0 60px rgba(201,148,74,.15);transition:all .3s;position:relative;overflow:hidden}
+.btn-glow::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:conic-gradient(from 0deg,transparent,rgba(255,255,255,.15),transparent 40%);animation:btnShine 3s linear infinite}
+@keyframes btnShine{to{transform:rotate(360deg)}}
+.btn-glow:hover{transform:translateY(-3px);box-shadow:0 16px 40px rgba(201,148,74,.5),0 0 80px rgba(201,148,74,.2)}
+.btn-outline{padding:16px 36px;border-radius:100px;background:transparent;border:1.5px solid rgba(255,255,255,.2);color:var(--white);text-decoration:none;font-size:14px;font-weight:600;letter-spacing:.04em;transition:all .3s}
+.btn-outline:hover{border-color:var(--teal);color:var(--teal);background:rgba(45,212,191,.05);transform:translateY(-3px)}
+.hero-stats{display:flex;gap:40px;margin-top:52px;opacity:0;animation:fadeUp .8s 1s forwards}
+.stat-card{background:var(--glass);backdrop-filter:blur(12px);border:1px solid var(--glass-border);border-radius:16px;padding:16px 20px;min-width:100px}
+.stat-num{font-family:'Playfair Display',serif;font-size:30px;font-weight:900;background:linear-gradient(135deg,var(--gold),var(--teal));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.stat-label{font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-top:2px}
+
+/* Hero 3D Visual */
+.hero-3d{perspective:1200px;opacity:0;animation:fadeIn 1s .5s forwards}
+.hero-3d-scene{position:relative;transform-style:preserve-3d;animation:sceneFloat 8s ease-in-out infinite}
+@keyframes sceneFloat{0%,100%{transform:rotateY(-5deg) rotateX(3deg)}50%{transform:rotateY(5deg) rotateX(-3deg) translateY(-12px)}}
+.hero-glass-card{width:100%;max-width:520px;background:rgba(22,30,51,.6);backdrop-filter:blur(20px);border:1px solid rgba(201,148,74,.15);border-radius:28px;padding:36px;box-shadow:0 40px 100px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.05);position:relative;overflow:hidden}
+.hero-glass-card::before{content:'';position:absolute;top:-60%;right:-40%;width:500px;height:500px;background:radial-gradient(circle,rgba(201,148,74,.08),transparent 70%);pointer-events:none}
+.hero-glass-card::after{content:'';position:absolute;bottom:-40%;left:-30%;width:400px;height:400px;background:radial-gradient(circle,rgba(45,212,191,.05),transparent 70%);pointer-events:none}
+.card-premium-badge{position:absolute;top:-1px;right:30px;background:linear-gradient(135deg,var(--accent),var(--gold));color:var(--bg);padding:8px 20px 10px;border-radius:0 0 12px 12px;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;box-shadow:0 8px 24px rgba(201,148,74,.3)}
+.fabric-roll-showcase{display:flex;justify-content:center;gap:12px;margin:24px 0 20px;perspective:600px}
+.roll-3d{width:80px;height:120px;position:relative;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.23,1,.32,1);cursor:pointer}
+.roll-3d:hover{transform:translateY(-12px) rotateY(15deg) scale(1.08)}
+.roll-body{width:80px;height:90px;border-radius:8px 8px 40px 40px;position:relative;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+.roll-top{width:80px;height:30px;border-radius:50%;position:absolute;top:-10px;left:0;box-shadow:inset 0 -4px 8px rgba(0,0,0,.3)}
+.roll-label{position:absolute;bottom:6px;left:0;right:0;text-align:center;font-size:8px;font-weight:700;color:rgba(255,255,255,.9);letter-spacing:.08em;text-transform:uppercase;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.roll-glow{position:absolute;inset:-4px;border-radius:12px;opacity:0;transition:opacity .3s}
+.roll-3d:hover .roll-glow{opacity:1}
+.card-info-bar{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:8px}
+.info-cell{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:12px;padding:12px 10px;text-align:center}
+.info-cell-label{font-size:9px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:3px}
+.info-cell-val{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:var(--white)}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+/* ===== SECTIONS SHARED ===== */
+section{position:relative;z-index:1}
+.section-wrap{max-width:1300px;margin:0 auto;padding:0 5%}
+.section-label{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:12px}
+.section-label::before{content:'';width:32px;height:2px;background:linear-gradient(90deg,var(--teal),transparent);border-radius:2px}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,50px);font-weight:900;color:var(--white);line-height:1.1;letter-spacing:-.02em}
+.section-title em{font-style:italic;background:linear-gradient(135deg,var(--accent),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.section-sub{font-size:16px;color:var(--muted);line-height:1.7;max-width:540px;margin-top:14px}
+
+/* ===== ABOUT ===== */
+#about{padding:120px 0;background:linear-gradient(180deg,var(--bg),var(--bg2))}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-top:56px}
+.about-text p{font-size:16.5px;line-height:1.85;color:var(--muted);margin-bottom:18px}
+.about-highlights{display:flex;flex-direction:column;gap:14px;margin-top:32px}
+.ah-item{display:flex;align-items:center;gap:16px;padding:18px 20px;background:rgba(255,255,255,.03);border:1px solid rgba(201,148,74,.1);border-radius:16px;transition:all .3s;cursor:default}
+.ah-item:hover{background:rgba(201,148,74,.06);border-color:rgba(201,148,74,.25);transform:translateX(6px)}
+.ah-icon{width:48px;height:48px;min-width:48px;background:linear-gradient(135deg,var(--accent),var(--gold));border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 8px 24px rgba(201,148,74,.25)}
+.ah-title{font-weight:700;color:var(--white);font-size:15px;margin-bottom:2px}
+.ah-sub{font-size:13px;color:var(--muted)}
+.about-visual{position:relative}
+.about-canvas-wrap{width:100%;aspect-ratio:4/5;border-radius:24px;overflow:hidden;box-shadow:var(--shadow-lg);position:relative;background:var(--surface)}
+.about-canvas-wrap canvas{width:100%!important;height:100%!important;display:block}
+.about-float-badge{position:absolute;bottom:24px;left:-16px;background:linear-gradient(135deg,var(--accent),var(--gold));color:var(--bg);padding:16px 22px;border-radius:18px;box-shadow:0 12px 40px rgba(201,148,74,.5);z-index:2}
+.abf-num{font-family:'Playfair Display',serif;font-size:32px;font-weight:900}
+.abf-label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+
+/* ===== FABRICS ===== */
+#fabrics{padding:120px 0;background:var(--bg)}
+.fabrics-header{text-align:center;margin-bottom:60px}
+.fabrics-header .section-label{justify-content:center}
+.fabrics-header .section-label::before{display:none}
+.fabric-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.fabric-card{background:var(--surface);border:1px solid rgba(201,148,74,.08);border-radius:var(--r-lg);overflow:hidden;transition:all .45s cubic-bezier(.23,1,.32,1);cursor:pointer;position:relative}
+.fabric-card::before{content:'';position:absolute;inset:0;border-radius:var(--r-lg);background:linear-gradient(135deg,rgba(201,148,74,.1),rgba(45,212,191,.05));opacity:0;transition:opacity .3s;z-index:0;pointer-events:none}
+.fabric-card:hover{transform:translateY(-10px) scale(1.02);box-shadow:0 30px 80px rgba(0,0,0,.4),0 0 0 1px rgba(201,148,74,.2)}
+.fabric-card:hover::before{opacity:1}
+.fabric-card-img{width:100%;aspect-ratio:16/10;overflow:hidden;position:relative}
+.fabric-card-img canvas{width:100%!important;height:100%!important;display:block}
+.fc-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,15,26,.8) 0%,transparent 60%);pointer-events:none}
+.fc-gsm-badge{position:absolute;top:14px;right:14px;background:rgba(10,15,26,.7);backdrop-filter:blur(8px);border:1px solid rgba(201,148,74,.2);padding:6px 14px;border-radius:100px;font-size:11px;font-weight:700;color:var(--gold);letter-spacing:.06em;z-index:2}
+.fabric-card-body{padding:24px 26px 28px;position:relative;z-index:1}
+.fc-colors{display:flex;gap:5px;margin-bottom:12px}
+.fc-dot{width:14px;height:14px;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,.3);border:1.5px solid rgba(255,255,255,.15)}
+.fc-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--white);margin-bottom:6px}
+.fc-uses{font-size:12px;color:var(--teal);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px;font-weight:600}
+.fc-desc{font-size:14px;line-height:1.65;color:var(--muted);margin-bottom:16px}
+.fc-link{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:var(--accent2);text-decoration:none;letter-spacing:.04em;transition:gap .25s}
+.fc-link:hover{gap:14px;color:var(--gold)}
+
+/* ===== AVAILABLE FABRICS ===== */
+#available{padding:100px 0;background:var(--bg2)}
+.af-header{text-align:center;margin-bottom:50px}
+.af-header .section-label{justify-content:center}
+.af-header .section-label::before{display:none}
+.af-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.af-card{background:var(--surface);border:1px solid rgba(201,148,74,.08);border-radius:18px;padding:22px 24px;transition:all .3s;cursor:default}
+.af-card:hover{border-color:var(--accent);transform:translateY(-4px);box-shadow:0 12px 40px rgba(201,148,74,.15)}
+.af-name{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--white);margin-bottom:5px}
+.af-gsm{font-size:13px;color:var(--teal);font-weight:600;margin-bottom:4px}
+.af-detail{font-size:13px;color:var(--muted)}
+
+/* ===== CONTACT ===== */
+#contact{padding:120px 0;background:linear-gradient(180deg,var(--bg),var(--bg2))}
+.contact-grid{display:grid;grid-template-columns:1fr 1.3fr;gap:60px;align-items:start;margin-top:56px}
+.contact-item{display:flex;gap:16px;margin-bottom:20px;padding:20px 22px;background:rgba(255,255,255,.03);border:1px solid rgba(201,148,74,.1);border-radius:16px;transition:all .3s;position:relative;cursor:pointer}
+.contact-item:hover{background:rgba(201,148,74,.06);border-color:rgba(201,148,74,.25)}
+.ci-icon{width:48px;height:48px;min-width:48px;background:linear-gradient(135deg,var(--accent),var(--gold));border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:20px;box-shadow:0 6px 20px rgba(201,148,74,.25)}
+.ci-label{font-size:10px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px}
+.ci-val{font-size:15px;color:var(--white);font-weight:600}
+.ci-copy-hint{font-size:10px;color:var(--teal);margin-top:3px;opacity:0;transition:opacity .3s}
+.contact-item:hover .ci-copy-hint{opacity:1}
+.copy-toast{position:fixed;bottom:40px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--teal);color:var(--bg);padding:12px 28px;border-radius:100px;font-size:13px;font-weight:700;box-shadow:0 8px 30px rgba(45,212,191,.4);opacity:0;transition:all .4s;z-index:5000;pointer-events:none}
+.copy-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.phone-item{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.phone-dial{width:28px;height:28px;border-radius:50%;background:rgba(45,212,191,.15);border:1px solid rgba(45,212,191,.3);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .3s;flex-shrink:0}
+.phone-dial:hover{background:var(--teal);border-color:var(--teal)}
+.phone-dial svg{width:14px;height:14px;fill:var(--teal);transition:fill .3s}
+.phone-dial:hover svg{fill:var(--bg)}
+.phone-copy{width:28px;height:28px;border-radius:50%;background:rgba(201,148,74,.15);border:1px solid rgba(201,148,74,.3);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .3s;flex-shrink:0}
+.phone-copy:hover{background:var(--accent);border-color:var(--accent)}
+.phone-copy svg{width:14px;height:14px;fill:var(--accent);transition:fill .3s}
+.phone-copy:hover svg{fill:var(--bg)}
+
+.map-container{width:100%;height:260px;border-radius:20px;overflow:hidden;border:1px solid rgba(201,148,74,.15);margin-top:24px;position:relative}
+.map-container iframe{width:100%;height:100%;border:0}
+.map-search{position:absolute;top:12px;left:12px;right:12px;z-index:2}
+.map-search input{width:100%;padding:10px 16px 10px 38px;background:rgba(10,15,26,.85);backdrop-filter:blur(12px);border:1px solid rgba(201,148,74,.2);border-radius:100px;color:var(--white);font-size:13px;font-family:'DM Sans',sans-serif;outline:none}
+.map-search input::placeholder{color:var(--muted)}
+.map-search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:14px;height:14px;fill:var(--muted)}
+
+.contact-form-card{background:var(--surface);border:1px solid rgba(201,148,74,.1);border-radius:24px;padding:40px;position:relative;overflow:hidden}
+.contact-form-card::before{content:'';position:absolute;top:-100px;right:-100px;width:300px;height:300px;background:radial-gradient(circle,rgba(201,148,74,.06),transparent);pointer-events:none}
+.cf-title{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:var(--white);margin-bottom:6px}
+.cf-sub{font-size:14px;color:var(--muted);margin-bottom:28px}
+.form-group{margin-bottom:18px}
+.form-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:7px}
+.form-input,.form-textarea{width:100%;padding:14px 18px;background:rgba(255,255,255,.04);border:1.5px solid rgba(255,255,255,.08);border-radius:12px;font-size:14px;color:var(--white);font-family:'DM Sans',sans-serif;outline:none;transition:all .25s}
+.form-input:focus,.form-textarea:focus{border-color:var(--accent);background:rgba(201,148,74,.04)}
+.form-textarea{resize:vertical;min-height:100px}
+.form-select{width:100%;padding:14px 18px;background:rgba(255,255,255,.04);border:1.5px solid rgba(255,255,255,.08);border-radius:12px;font-size:14px;color:var(--white);font-family:'DM Sans',sans-serif;outline:none;appearance:none;cursor:pointer;transition:all .25s}
+.form-select:focus{border-color:var(--accent)}
+.form-select option{background:var(--bg);color:var(--white)}
+.form-submit{width:100%;padding:16px;background:linear-gradient(135deg,var(--accent),var(--gold));color:var(--bg);border:none;border-radius:100px;font-size:14px;font-weight:700;letter-spacing:.06em;cursor:pointer;box-shadow:0 8px 30px rgba(201,148,74,.35);transition:all .3s;position:relative;overflow:hidden}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 16px 40px rgba(201,148,74,.5)}
+.form-submit:disabled{opacity:.6;cursor:not-allowed;transform:none}
+.form-submit.success{background:linear-gradient(135deg,#059669,var(--teal))}
+
+/* ===== ENQUIRY (Separate Section) ===== */
+#enquiry{padding:120px 0;background:var(--bg2)}
+.enquiry-header{text-align:center;margin-bottom:60px}
+.enquiry-header .section-label{justify-content:center}
+.enquiry-header .section-label::before{display:none}
+.enquiry-tabs{display:flex;justify-content:center;gap:12px;margin-bottom:40px}
+.eq-tab{padding:12px 28px;border-radius:100px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);color:var(--muted);font-size:13px;font-weight:600;letter-spacing:.04em;cursor:pointer;transition:all .3s}
+.eq-tab.active{background:linear-gradient(135deg,var(--accent),var(--gold));color:var(--bg);border-color:transparent;box-shadow:0 4px 20px rgba(201,148,74,.3)}
+.eq-panel{display:none;max-width:680px;margin:0 auto}
+.eq-panel.active{display:block}
+.eq-form-card{background:var(--surface);border:1px solid rgba(201,148,74,.1);border-radius:24px;padding:44px;box-shadow:var(--shadow)}
+
+/* ===== MODAL ===== */
+.modal-overlay{position:fixed;inset:0;z-index:2000;background:rgba(10,15,26,.85);backdrop-filter:blur(16px);display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;pointer-events:none;transition:opacity .35s}
+.modal-overlay.open{opacity:1;pointer-events:all}
+.modal-box{background:var(--surface);border:1px solid rgba(201,148,74,.15);border-radius:28px;width:100%;max-width:860px;max-height:90vh;overflow-y:auto;box-shadow:var(--shadow-lg);transform:translateY(30px) scale(.97);transition:transform .4s cubic-bezier(.23,1,.32,1)}
+.modal-overlay.open .modal-box{transform:translateY(0) scale(1)}
+.modal-img{width:100%;height:280px;overflow:hidden;position:relative;border-radius:28px 28px 0 0}
+.modal-img canvas{width:100%!important;height:100%!important}
+.modal-close{position:absolute;top:18px;right:18px;width:40px;height:40px;background:rgba(10,15,26,.6);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.1);border-radius:50%;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--white);z-index:10;transition:all .2s}
+.modal-close:hover{background:var(--accent);border-color:var(--accent)}
+.modal-content{padding:36px 40px 40px}
+.modal-label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);font-weight:700;margin-bottom:8px}
+.modal-title{font-family:'Playfair Display',serif;font-size:34px;font-weight:900;color:var(--white);margin-bottom:16px}
+.modal-desc{font-size:15px;line-height:1.75;color:var(--muted);margin-bottom:28px}
+.modal-specs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+.spec-item{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:16px 18px}
+.spec-label{font-size:10px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:5px}
+.spec-val{font-size:16px;font-weight:700;color:var(--white);font-family:'Playfair Display',serif}
+.use-tags{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.use-tag{padding:8px 18px;border-radius:100px;background:rgba(45,212,191,.08);border:1px solid rgba(45,212,191,.2);font-size:13px;font-weight:600;color:var(--teal)}
+.modal-enquire-btn{display:inline-block;padding:14px 32px;border-radius:100px;background:linear-gradient(135deg,var(--accent),var(--gold));color:var(--bg);text-decoration:none;font-size:14px;font-weight:700;letter-spacing:.04em;box-shadow:0 8px 30px rgba(201,148,74,.4);transition:all .25s;cursor:pointer;border:none}
+.modal-enquire-btn:hover{transform:translateY(-2px);box-shadow:0 14px 40px rgba(201,148,74,.5)}
+
+/* ===== FOOTER ===== */
+footer{background:#060a12;padding:50px 5% 30px;text-align:center;border-top:1px solid rgba(201,148,74,.08)}
+.footer-logo{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;color:var(--white);margin-bottom:6px}
+.footer-tag{font-size:12px;color:var(--accent);letter-spacing:.08em;margin-bottom:24px}
+.footer-links{display:flex;gap:28px;justify-content:center;margin-bottom:20px}
+.footer-links a{color:var(--muted);font-size:13px;text-decoration:none;transition:color .25s}
+.footer-links a:hover{color:var(--gold)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.06);padding-top:20px;margin-top:20px;font-size:12px;color:var(--muted)}
+
+/* ===== WHATSAPP ===== */
+.whatsapp-float{position:fixed;bottom:28px;right:28px;z-index:500;display:flex;align-items:center;gap:12px}
+.wa-btn{width:60px;height:60px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(37,211,102,.4);text-decoration:none;transition:all .3s;position:relative}
+.wa-btn:hover{transform:scale(1.08);box-shadow:0 12px 40px rgba(37,211,102,.5)}
+.wa-btn svg{width:30px;height:30px;fill:#fff}
+.wa-pulse{position:absolute;inset:-6px;border-radius:50%;border:2px solid #25D366;animation:waPulse 2s infinite}
+@keyframes waPulse{0%{transform:scale(1);opacity:.6}100%{transform:scale(1.4);opacity:0}}
+
+/* ===== REVEAL ===== */
+.reveal{opacity:0;transform:translateY(40px);transition:opacity .7s cubic-bezier(.23,1,.32,1),transform .7s cubic-bezier(.23,1,.32,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-d1{transition-delay:.1s}.reveal-d2{transition-delay:.2s}.reveal-d3{transition-delay:.3s}.reveal-d4{transition-delay:.4s}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:900px){
+  .hero-inner{grid-template-columns:1fr}.hero-3d{display:none}
+  .about-grid{grid-template-columns:1fr}.fabric-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:1fr}.modal-specs{grid-template-columns:repeat(2,1fr)}
+  .nav-links{display:none}.hamburger{display:flex}
+}
+@media(max-width:600px){
+  .fabric-grid{grid-template-columns:1fr}.hero-stats{flex-wrap:wrap;gap:12px}
+  .stat-card{min-width:auto;flex:1}.eq-form-card{padding:28px}
+}
+</style>
+</head>
+<body>
+
+<!-- Copy Toast -->
+<div class="copy-toast" id="copyToast">✓ Copied to clipboard!</div>
+
+<!-- WhatsApp -->
+<div class="whatsapp-float">
+  <a class="wa-btn" href="https://wa.me/919843018530" target="_blank" title="Chat on WhatsApp">
+    <div class="wa-pulse"></div>
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+</div>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+  <a href="#home" onclick="closeMobileNav()">Home</a>
+  <a href="#about" onclick="closeMobileNav()">About</a>
+  <a href="#fabrics" onclick="closeMobileNav()">Fabrics</a>
+  <a href="#contact" onclick="closeMobileNav()">Contact</a>
+  <a href="#enquiry" onclick="closeMobileNav()">Enquiry</a>
+</div>
+
+<!-- Navbar -->
+<nav id="navbar">
+  <a class="nav-logo" href="#home">
+    <div class="logo-3d">
+      <div class="logo-cube">
+        <div class="logo-face logo-front">SBC</div>
+        <div class="logo-face logo-back">SBC</div>
+        <div class="logo-face logo-right">SBC</div>
+        <div class="logo-face logo-left">SBC</div>
+        <div class="logo-face logo-top">★</div>
+        <div class="logo-face logo-bottom">★</div>
+      </div>
+    </div>
+    <div class="logo-text-wrap">
+      <div class="logo-name">Bhagavathy Amman</div>
+      <div class="logo-tag">Premium Cotton Fabrics</div>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#fabrics">Fabrics</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#enquiry" class="nav-cta">Enquiry</a></li>
+  </ul>
+  <button class="hamburger" onclick="openMobileNav()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="home">
+  <div class="hero-orbs">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+  </div>
+  <div class="hero-grid-lines"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        100% Cotton · Tirupur Quality
+      </div>
+      <h1 class="hero-title">
+        Premium Cotton<br><em>Knitted Fabrics</em>
+      </h1>
+      <p class="hero-sub">High-quality cotton fabrics for t-shirts, hoodies, activewear & more. Trusted by manufacturers across India, crafted in the knitting capital — Tirupur.</p>
+      <div class="hero-btns">
+        <a href="#fabrics" class="btn-glow">Explore Fabrics</a>
+        <a href="#contact" class="btn-outline">Contact Us</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-num">100+</div>
+          <div class="stat-label">Colours</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">6+</div>
+          <div class="stat-label">Fabric Types</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">160–330</div>
+          <div class="stat-label">GSM Range</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-3d" id="hero3d">
+      <div class="hero-3d-scene" id="hero3dScene">
+        <div class="hero-glass-card">
+          <div class="card-premium-badge">★ Premium Quality</div>
+          <div class="fabric-roll-showcase" id="rollShowcase">
+            <!-- Fabric Rolls rendered by JS -->
+          </div>
+          <div class="card-info-bar">
+            <div class="info-cell">
+              <div class="info-cell-label">GSM</div>
+              <div class="info-cell-val">160–330</div>
+            </div>
+            <div class="info-cell">
+              <div class="info-cell-label">Colors</div>
+              <div class="info-cell-val">100+</div>
+            </div>
+            <div class="info-cell">
+              <div class="info-cell-label">Origin</div>
+              <div class="info-cell-val">Tirupur</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="section-wrap">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="about-canvas-wrap">
+          <canvas id="aboutCanvas"></canvas>
+        </div>
+        <div class="about-float-badge">
+          <div class="abf-num">15+</div>
+          <div class="abf-label">Years of Trust</div>
+        </div>
+      </div>
+      <div>
+        <div class="section-label reveal">Our Story</div>
+        <h2 class="section-title reveal reveal-d1">Weaving Quality<br>into <em>Every Thread</em></h2>
+        <div class="about-text reveal reveal-d2">
+          <p>Bhagavathy Amman Clothing is a trusted fabric store based in Tirupur — the knitting capital of India — providing premium cotton knitted fabrics in various GSM ranges for all forms of apparel manufacturing.</p>
+          <p>From lightweight single jersey to heavy loopknit, every fabric we supply is sourced for quality, consistency, and colour vibrancy.</p>
+        </div>
+        <div class="about-highlights reveal reveal-d3">
+          <div class="ah-item">
+            <div class="ah-icon">🎨</div>
+            <div>
+              <div class="ah-title">100+ Colours Available</div>
+              <div class="ah-sub">Full spectrum — solid, melange, and custom shades</div>
+            </div>
+          </div>
+          <div class="ah-item">
+            <div class="ah-icon">📦</div>
+            <div>
+              <div class="ah-title">Bulk Fabric Supply</div>
+              <div class="ah-sub">Reliable bulk orders for manufacturers & exporters</div>
+            </div>
+          </div>
+          <div class="ah-item">
+            <div class="ah-icon">✅</div>
+            <div>
+              <div class="ah-title">Quality Assurance</div>
+              <div class="ah-sub">Biowash, soft flow finishing and GSM-accurate supply</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FABRICS ===== -->
+<section id="fabrics">
+  <div class="section-wrap">
+    <div class="fabrics-header">
+      <div class="section-label reveal">Our Collection</div>
+      <h2 class="section-title reveal reveal-d1">Fabric <em>Categories</em></h2>
+      <p class="section-sub reveal reveal-d2" style="margin:14px auto 0;text-align:center">Click any fabric to explore full details, GSM specs, and garment applications.</p>
+    </div>
+    <div class="fabric-grid" id="fabricGrid"></div>
+  </div>
+</section>
+
+<!-- ===== AVAILABLE ===== -->
+<section id="available">
+  <div class="section-wrap">
+    <div class="af-header">
+      <div class="section-label reveal">Full Range</div>
+      <h2 class="section-title reveal reveal-d1">Available <em>Fabrics</em></h2>
+    </div>
+    <div class="af-grid" id="afGrid"></div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="section-wrap">
+    <div class="section-label reveal">Get In Touch</div>
+    <h2 class="section-title reveal reveal-d1">Visit or <em>Call Us</em></h2>
+    <div class="contact-grid">
+      <div>
+        <!-- Phone -->
+        <div class="contact-item reveal reveal-d1" id="phoneCard">
+          <div class="ci-icon">📞</div>
+          <div style="flex:1">
+            <div class="ci-label">Phone</div>
+            <div class="phone-item">
+              <span class="ci-val" style="flex:1">+91 98430 18530</span>
+              <span class="phone-dial" title="Dial" onclick="event.stopPropagation();window.open('tel:+919843018530')">
+                <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              </span>
+              <span class="phone-copy" title="Copy number" onclick="event.stopPropagation();copyPhone('+919843018530')">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </span>
+            </div>
+            <div class="phone-item">
+              <span class="ci-val" style="flex:1">+91 97870 38883</span>
+              <span class="phone-dial" title="Dial" onclick="event.stopPropagation();window.open('tel:+919787038883')">
+                <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              </span>
+              <span class="phone-copy" title="Copy number" onclick="event.stopPropagation();copyPhone('+919787038883')">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Address -->
+        <div class="contact-item reveal reveal-d2">
+          <div class="ci-icon">📍</div>
+          <div>
+            <div class="ci-label">Address</div>
+            <div class="ci-val">Tirupur, Tamil Nadu, India</div>
+            <div style="font-size:12px;color:var(--muted);margin-top:3px">Knitting Capital of India</div>
+          </div>
+        </div>
+        <!-- Email -->
+        <div class="contact-item reveal reveal-d3" onclick="copyText('bhagavathyammanclothing@gmail.com','Email copied!')">
+          <div class="ci-icon">✉️</div>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-val">bhagavathyammanclothing@gmail.com</div>
+            <div class="ci-copy-hint">Click to copy</div>
+          </div>
+        </div>
+        <!-- Google Map -->
+        <div class="map-container reveal reveal-d4">
+          <div class="map-search">
+            <svg class="map-search-icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            <input type="text" placeholder="Search Tirupur location..." id="mapSearch" onkeydown="if(event.key==='Enter')searchMap()">
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125323.41454293084!2d77.27216!3d11.1085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907b0754b3181%3A0x55555a8e1b57a8b!2sTiruppur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" id="gmap" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+      <!-- Quick Contact Form -->
+      <div class="contact-form-card reveal reveal-d2">
+        <div class="cf-title">💬 Quick Message</div>
+        <div class="cf-sub">Drop your message. We'll respond within 24 hours.</div>
+        <form id="contactForm" onsubmit="return submitToSheet(event,'contact')">
+          <div class="form-group">
+            <label class="form-label">Name *</label>
+            <input class="form-input" type="text" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone *</label>
+            <input class="form-input" type="tel" name="phone" placeholder="+91 XXXXX XXXXX" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" name="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" name="message" placeholder="What fabric are you looking for..."></textarea>
+          </div>
+          <button class="form-submit" type="submit">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ENQUIRY (Separate Section) ===== -->
+<section id="enquiry">
+  <div class="section-wrap">
+    <div class="enquiry-header">
+      <div class="section-label reveal">Enquiries</div>
+      <h2 class="section-title reveal reveal-d1">We'd Love to <em>Hear from You</em></h2>
+    </div>
+    <div class="enquiry-tabs reveal reveal-d2">
+      <div class="eq-tab active" onclick="switchTab('customer',this)">🛒 Customer Enquiry</div>
+      <div class="eq-tab" onclick="switchTab('employee',this)">👤 Job Application</div>
+    </div>
+
+    <div class="eq-panel active" id="panel-customer">
+      <div class="eq-form-card">
+        <h3 style="font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:var(--white);margin-bottom:6px">Fabric Enquiry</h3>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:28px">Tell us your requirements — we'll get the best quote ready for you.</p>
+        <form id="customerForm" onsubmit="return submitToSheet(event,'customer')">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+            <div class="form-group">
+              <label class="form-label">Name *</label>
+              <input class="form-input" type="text" name="name" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone *</label>
+              <input class="form-input" type="tel" name="phone" placeholder="+91 XXXXX XXXXX" required>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input class="form-input" type="email" name="email" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Company / Brand</label>
+              <input class="form-input" type="text" name="company" placeholder="Company name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Fabric Type</label>
+            <select class="form-select" name="fabric_type">
+              <option value="">Select fabric type...</option>
+              <option>Single Jersey</option>
+              <option>Loopknit</option>
+              <option>Airtex / Pique</option>
+              <option>Interlock</option>
+              <option>Lycra Fine</option>
+              <option>Designer / Stripes</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+            <div class="form-group">
+              <label class="form-label">GSM Needed</label>
+              <input class="form-input" type="text" name="gsm" placeholder="e.g. 240 GSM">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Quantity (kg)</label>
+              <input class="form-input" type="text" name="quantity" placeholder="e.g. 500 kg">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Additional Requirements</label>
+            <textarea class="form-textarea" name="message" placeholder="Colors needed, finish type, delivery timeline..."></textarea>
+          </div>
+          <button class="form-submit" type="submit">Submit Enquiry →</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="eq-panel" id="panel-employee">
+      <div class="eq-form-card">
+        <h3 style="font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:var(--white);margin-bottom:6px">Job Application</h3>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:28px">Interested in working with us? Tell us about yourself.</p>
+        <form id="employeeForm" onsubmit="return submitToSheet(event,'employee')">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+            <div class="form-group">
+              <label class="form-label">Name *</label>
+              <input class="form-input" type="text" name="name" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone *</label>
+              <input class="form-input" type="tel" name="phone" placeholder="+91 XXXXX XXXXX" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" name="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Position Interested In</label>
+            <select class="form-select" name="position">
+              <option value="">Select position...</option>
+              <option>Fabric Sales</option>
+              <option>Store Management</option>
+              <option>Delivery / Logistics</option>
+              <option>Quality Control</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Experience & Message</label>
+            <textarea class="form-textarea" name="message" placeholder="Tell us about your experience..."></textarea>
+          </div>
+          <button class="form-submit" type="submit">Submit Application →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-logo">SBC — Bhagavathy Amman Clothing</div>
+  <div class="footer-tag">100% Cotton Knitted Fabrics · Tirupur, Tamil Nadu</div>
+  <div class="footer-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#fabrics">Fabrics</a>
+    <a href="#contact">Contact</a>
+    <a href="#enquiry">Enquiry</a>
+  </div>
+  <div class="footer-bottom">© 2025 Bhagavathy Amman Clothing. All rights reserved. Tirupur, India.</div>
+</footer>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box" id="modalBox">
+    <div class="modal-img" id="modalImg">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-content" id="modalContent"></div>
+  </div>
+</div>
+
+<script>
+// ========== DATA ==========
+const fabricColors = {
+  loopknit:  { body:'#8b5e3c', top:'#a06e4a', label:'Loopknit',   rolls:['#6b4226','#4a2060','#1a7a4a','#2d5a8e','#8b1a1a'] },
+  airtex:    { body:'#2d5a8e', top:'#3a6fa0', label:'Airtex',     rolls:['#2d5a8e','#1a7a4a','#8b1a1a','#6b4226','#d4a843'] },
+  jersey:    { body:'#1a7a4a', top:'#228855', label:'S. Jersey',   rolls:['#1a7a4a','#2d5a8e','#8b1a1a','#6b4226','#c4922a'] },
+  interlock: { body:'#4a2060', top:'#5c2878', label:'Interlock',   rolls:['#4a2060','#1a1a5a','#5a1a1a','#2c5a2c','#333']   },
+  lycra:     { body:'#b5276a', top:'#d03a80', label:'Lycra',       rolls:['#b5276a','#2d5a8e','#1a7a4a','#6b4226','#d4a843'] },
+  designer:  { body:'#c49830', top:'#d4a843', label:'Designer',    rolls:['#d4a843','#1a1612','#2d5a8e','#1a7a4a','#8b1a1a'] }
+};
+
+const fabrics = [
+  { id:'loopknit', name:'Loopknit', gsm:'240, 300, 330 GSM', uses:['Hoodies','Sweatshirts','Fleece Jackets'], desc:'Loop-knit fabric features a looped pile on the inner surface for exceptional warmth and softness. Available in unraised (240 GSM) and raised (300/330 GSM) variants — perfect for premium hoodies and sweatshirts.', material:'100% Cotton', finish:'Soft Flow / Brushed' },
+  { id:'airtex', name:'Airtex', gsm:'220, 240, 280 GSM', uses:['Polo T-Shirts','Sports Wear','Casual Tops'], desc:'Airtex is a breathable mesh-knit fabric engineered for maximum air circulation. With its piqué weave structure, it offers durability and a premium texture — the choice for polo shirts and activewear.', material:'100% Cotton / Polycotton', finish:'Soft Flow' },
+  { id:'jersey', name:'Single Jersey', gsm:'160–210 GSM', uses:['T-Shirts','Inner Wear','Casual Wear'], desc:'Single jersey is the most versatile knit fabric — lightweight, soft, and breathable. Its smooth face makes it ideal for printed and plain T-shirts. Available in bio-wash soft flow finish for superior hand feel.', material:'100% Cotton (Biowash)', finish:'Soft Flow / Biowash' },
+  { id:'interlock', name:'Interlock', gsm:'~330 GSM', uses:['Hoodies','Winter Wear','Thermal Inner Wear'], desc:'Interlock fabric is double-faced with superior stretch recovery and thickness. At 330 GSM, it provides excellent insulation and body — perfect for premium hoodies and winter garments.', material:'100% Cotton', finish:'Compact' },
+  { id:'lycra', name:'Lycra Fine', gsm:'160–220 GSM', uses:['Leggings','Stretch Wear','Yoga Wear','Activewear'], desc:'Lycra Fine blends cotton with elastane for four-way stretch with comfort and shape retention. Smooth, shiny surface provides a premium look for leggings and fitted activewear.', material:'Cotton + Lycra / Elastane', finish:'Soft Fine' },
+  { id:'designer', name:'Designer Fabrics', gsm:'180–260 GSM', uses:['Casual Tops','Polo Shirts','Trendy Wear'], desc:'Our designer fabric range features bold vertical and horizontal stripe patterns in vibrant colourways. Ready-to-cut fabrics ideal for brands seeking unique, stand-out garments.', material:'100% Cotton / Polycotton', finish:'Various' }
+];
+
+const availableFabrics = [
+  {name:'Lycra Jersey',gsm:'180 GSM',detail:'100% Biowash · Premium Soft'},
+  {name:'Airtex',gsm:'220 GSM',detail:'Soft Flow · Breathable Mesh'},
+  {name:'Airtex',gsm:'240 GSM',detail:'Soft Flow · Enhanced Weight'},
+  {name:'Airtex',gsm:'280 GSM',detail:'Heavy Weight · Durable'},
+  {name:'Loopknit Unraised',gsm:'240 GSM',detail:'Plain Inner · Hoodies'},
+  {name:'Loopknit Raised',gsm:'300 GSM',detail:'Brushed Inner · Fleece'},
+  {name:'Loopknit Raised',gsm:'330 GSM',detail:'Heavy Brushed · Winter'},
+  {name:'Single Jersey',gsm:'160–210 GSM',detail:'Soft Flow · Bio-wash · T-Shirts'},
+  {name:'Pique Polycotton',gsm:'260 GSM',detail:'Premium Polo · Textured'},
+  {name:'Polyester Fancy',gsm:'Various',detail:'Designer Patterns · Sportswear'},
+  {name:'Interlock',gsm:'330 GSM',detail:'Double-faced · Winter Wear'},
+  {name:'Lycra Fine',gsm:'180–220 GSM',detail:'Stretch · Activewear'},
+];
+
+// ========== DRAW FABRIC ROLL ON CANVAS ==========
+function drawFabricRoll(canvas, color, topColor, label, w, h) {
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = w * dpr; canvas.height = h * dpr;
+  canvas.style.width = w + 'px'; canvas.style.height = h + 'px';
+  ctx.scale(dpr, dpr);
+
+  const cx = w/2, bodyH = h*0.6, topY = h*0.15, rx = w*0.45, ry = h*0.1;
+
+  // Body shadow
+  ctx.fillStyle = 'rgba(0,0,0,0.3)';
+  ctx.beginPath();
+  ctx.ellipse(cx, topY + bodyH + ry*0.5, rx+4, ry+4, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // Body
+  const bodyGrad = ctx.createLinearGradient(cx-rx, 0, cx+rx, 0);
+  bodyGrad.addColorStop(0, shadeColor(color, -30));
+  bodyGrad.addColorStop(0.3, color);
+  bodyGrad.addColorStop(0.7, shadeColor(color, 20));
+  bodyGrad.addColorStop(1, shadeColor(color, -20));
+  ctx.fillStyle = bodyGrad;
+  ctx.beginPath();
+  ctx.moveTo(cx-rx, topY+ry*0.3);
+  ctx.lineTo(cx-rx, topY+bodyH);
+  ctx.ellipse(cx, topY+bodyH, rx, ry, 0, Math.PI, 0, true);
+  ctx.lineTo(cx+rx, topY+ry*0.3);
+  ctx.closePath();
+  ctx.fill();
+
+  // Horizontal weave lines
+  ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+  ctx.lineWidth = 1;
+  for(let y = topY + ry + 10; y < topY + bodyH - 5; y += 12) {
+    ctx.beginPath(); ctx.moveTo(cx-rx+4, y); ctx.lineTo(cx+rx-4, y); ctx.stroke();
+  }
+
+  // Bottom ellipse
+  const botGrad = ctx.createLinearGradient(cx-rx, topY+bodyH-ry, cx+rx, topY+bodyH+ry);
+  botGrad.addColorStop(0, shadeColor(color, -40));
+  botGrad.addColorStop(1, shadeColor(color, -50));
+  ctx.fillStyle = botGrad;
+  ctx.beginPath();
+  ctx.ellipse(cx, topY+bodyH, rx, ry, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // Top ellipse
+  const topGrad = ctx.createRadialGradient(cx-rx*0.3, topY, 0, cx, topY, rx);
+  topGrad.addColorStop(0, shadeColor(topColor, 30));
+  topGrad.addColorStop(0.6, topColor);
+  topGrad.addColorStop(1, shadeColor(topColor, -20));
+  ctx.fillStyle = topGrad;
+  ctx.beginPath();
+  ctx.ellipse(cx, topY, rx, ry, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // Highlight on top
+  ctx.fillStyle = 'rgba(255,255,255,0.12)';
+  ctx.beginPath();
+  ctx.ellipse(cx-rx*0.2, topY-ry*0.2, rx*0.4, ry*0.4, -0.3, 0, Math.PI*2);
+  ctx.fill();
+
+  // Label
+  if(label) {
+    ctx.fillStyle = 'rgba(255,255,255,0.85)';
+    ctx.font = `bold ${Math.max(9, w*0.1)}px 'DM Sans', sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(label, cx, topY + bodyH*0.55);
+  }
+}
+
+function shadeColor(color, amount) {
+  let r = parseInt(color.slice(1,3),16), g = parseInt(color.slice(3,5),16), b = parseInt(color.slice(5,7),16);
+  r = Math.max(0,Math.min(255,r+amount)); g = Math.max(0,Math.min(255,g+amount)); b = Math.max(0,Math.min(255,b+amount));
+  return '#'+(r<<16|g<<8|b).toString(16).padStart(6,'0');
+}
+
+// ========== HERO ROLLS ==========
+function renderHeroRolls() {
+  const container = document.getElementById('rollShowcase');
+  const rollData = [
+    { color:'#8b5e3c', top:'#a06e4a', label:'Loopknit' },
+    { color:'#2d5a8e', top:'#3a6fa0', label:'Airtex' },
+    { color:'#b5276a', top:'#d03a80', label:'Lycra' },
+    { color:'#1a7a4a', top:'#228855', label:'Jersey' },
+    { color:'#4a2060', top:'#5c2878', label:'Interlock' }
+  ];
+  container.innerHTML = '';
+  rollData.forEach((r, i) => {
+    const div = document.createElement('div');
+    div.className = 'roll-3d';
+    div.style.animationDelay = (i*0.1)+'s';
+    const canvas = document.createElement('canvas');
+    canvas.style.borderRadius = '8px';
+    div.appendChild(canvas);
+    const glow = document.createElement('div');
+    glow.className = 'roll-glow';
+    glow.style.background = `radial-gradient(circle, ${r.color}44, transparent)`;
+    div.appendChild(glow);
+    container.appendChild(div);
+    drawFabricRoll(canvas, r.color, r.top, r.label, 80, 120);
+  });
+}
+
+// ========== ABOUT CANVAS (3D Fabric Rolls Scene) ==========
+function drawAboutScene() {
+  const canvas = document.getElementById('aboutCanvas');
+  const rect = canvas.parentElement.getBoundingClientRect();
+  const w = rect.width, h = rect.height;
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = w*dpr; canvas.height = h*dpr;
+  canvas.style.width = w+'px'; canvas.style.height = h+'px';
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  // Background
+  const bg = ctx.createLinearGradient(0,0,w,h);
+  bg.addColorStop(0,'#0e1525');
+  bg.addColorStop(1,'#161e33');
+  ctx.fillStyle = bg;
+  ctx.fillRect(0,0,w,h);
+
+  // Grid pattern
+  ctx.strokeStyle = 'rgba(201,148,74,0.05)';
+  ctx.lineWidth = 1;
+  for(let x=0;x<w;x+=40){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke();}
+  for(let y=0;y<h;y+=40){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(w,y);ctx.stroke();}
+
+  // Golden glow
+  const glow = ctx.createRadialGradient(w*0.4, h*0.3, 0, w*0.4, h*0.3, w*0.5);
+  glow.addColorStop(0, 'rgba(201,148,74,0.1)');
+  glow.addColorStop(1, 'transparent');
+  ctx.fillStyle = glow;
+  ctx.fillRect(0,0,w,h);
+
+  // Draw large main roll
+  drawFabricRollOnCtx(ctx, w*0.5, h*0.2, w*0.55, h*0.45, '#8b5e3c', '#a06e4a', 'COTTON');
+
+  // Second roll (blue)
+  drawFabricRollOnCtx(ctx, w*0.25, h*0.58, w*0.35, h*0.28, '#2d5a8e', '#3a6fa0', '');
+
+  // Third roll (burgundy)
+  drawFabricRollOnCtx(ctx, w*0.7, h*0.56, w*0.32, h*0.26, '#6b1a2c', '#8a2240', '');
+
+  // Small accent roll
+  drawFabricRollOnCtx(ctx, w*0.48, h*0.72, w*0.22, h*0.18, '#1a7a4a', '#228855', '');
+
+  // SBC watermark
+  ctx.fillStyle = 'rgba(201,148,74,0.06)';
+  ctx.font = `900 ${w*0.22}px 'Playfair Display', serif`;
+  ctx.textAlign = 'center';
+  ctx.fillText('SBC', w*0.5, h*0.92);
+
+  // Gold accent bar
+  const barGrad = ctx.createLinearGradient(0,0,0,h);
+  barGrad.addColorStop(0,'rgba(201,148,74,0.6)');
+  barGrad.addColorStop(1,'rgba(201,148,74,0.1)');
+  ctx.fillStyle = barGrad;
+  ctx.fillRect(0,0,5,h);
+}
+
+function drawFabricRollOnCtx(ctx, cx, cy, rw, rh, bodyColor, topColor, label) {
+  const rx = rw/2, ry = rh*0.12;
+  const bodyH = rh * 0.75;
+  const topY = cy;
+
+  // Shadow
+  ctx.fillStyle = 'rgba(0,0,0,0.25)';
+  ctx.beginPath();
+  ctx.ellipse(cx, topY+bodyH+ry*0.5, rx+5, ry+5, 0, 0, Math.PI*2);
+  ctx.fill();
+
+  // Body gradient
+  const bodyGrad = ctx.createLinearGradient(cx-rx, 0, cx+rx, 0);
+  bodyGrad.addColorStop(0, shadeColor(bodyColor, -25));
+  bodyGrad.addColorStop(0.35, bodyColor);
+  bodyGrad.addColorStop(0.65, shadeColor(bodyColor, 15));
+  bodyGrad.addColorStop(1, shadeColor(bodyColor, -20));
+  ctx.fillStyle = bodyGrad;
+  ctx.beginPath();
+  ctx.moveTo(cx-rx, topY+ry*0.3);
+  ctx.lineTo(cx-rx, topY+bodyH);
+  ctx.ellipse(cx, topY+bodyH, rx, ry, 0, Math.PI, 0, true);
+  ctx.lineTo(cx+rx, topY+ry*0.3);
+  ctx.closePath();
+  ctx.fill();
+
+  // Weave lines
+  ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+  ctx.lineWidth = 1;
+  for(let y = topY+ry+8; y < topY+bodyH-4; y += Math.max(8, rh*0.06)) {
+    ctx.beginPath(); ctx.moveTo(cx-rx+3, y); ctx.lineTo(cx+rx-3, y); ctx.stroke();
+  }
+
+  // Bottom ellipse
+  ctx.fillStyle = shadeColor(bodyColor, -40);
+  ctx.beginPath(); ctx.ellipse(cx, topY+bodyH, rx, ry, 0, 0, Math.PI*2); ctx.fill();
+
+  // Top ellipse
+  const topGrad = ctx.createRadialGradient(cx-rx*0.3, topY, 0, cx, topY, rx);
+  topGrad.addColorStop(0, shadeColor(topColor, 30));
+  topGrad.addColorStop(0.6, topColor);
+  topGrad.addColorStop(1, shadeColor(topColor, -20));
+  ctx.fillStyle = topGrad;
+  ctx.beginPath(); ctx.ellipse(cx, topY, rx, ry, 0, 0, Math.PI*2); ctx.fill();
+
+  // Highlight
+  ctx.fillStyle = 'rgba(255,255,255,0.1)';
+  ctx.beginPath(); ctx.ellipse(cx-rx*0.2, topY-ry*0.15, rx*0.35, ry*0.35, -0.3, 0, Math.PI*2); ctx.fill();
+
+  // Label
+  if(label) {
+    ctx.save();
+    ctx.fillStyle = 'rgba(201,148,74,0.3)';
+    ctx.strokeStyle = 'rgba(201,148,74,0.4)';
+    ctx.lineWidth = 1;
+    const lw = rw*0.45, lh = rh*0.12;
+    const lx = cx-lw/2, ly = topY + bodyH*0.38;
+    ctx.beginPath(); ctx.roundRect(lx, ly, lw, lh, 4); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = '#d4a843';
+    ctx.font = `700 ${Math.max(9, rw*0.06)}px 'DM Sans', sans-serif`;
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.letterSpacing = '2px';
+    ctx.fillText(label, cx, ly+lh/2);
+    ctx.restore();
+  }
+}
+
+// ========== FABRIC CARD CANVAS ==========
+function drawFabricCardCanvas(canvas, fabricId) {
+  const fc = fabricColors[fabricId];
+  if(!fc) return;
+  const w = 600, h = 375;
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = w*dpr; canvas.height = h*dpr;
+  canvas.style.width = '100%'; canvas.style.height = '100%';
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+
+  // Background
+  const bg = ctx.createLinearGradient(0,0,w,h);
+  bg.addColorStop(0, shadeColor(fc.body, -30));
+  bg.addColorStop(1, shadeColor(fc.body, -50));
+  ctx.fillStyle = bg;
+  ctx.fillRect(0,0,w,h);
+
+  // Fabric texture pattern
+  ctx.globalAlpha = 0.15;
+  for(let x=0;x<w;x+=8){
+    for(let y=0;y<h;y+=8){
+      if((x+y)%16===0){
+        ctx.fillStyle = 'rgba(255,255,255,0.3)';
+        ctx.fillRect(x,y,4,4);
+      }
+    }
+  }
+  ctx.globalAlpha = 1;
+
+  // Main roll
+  drawFabricRollOnCtx(ctx, w*0.5, h*0.15, w*0.5, h*0.6, fc.body, fc.top, '');
+
+  // Small color swatches
+  fc.rolls.forEach((c, i) => {
+    ctx.fillStyle = c;
+    ctx.shadowColor = 'rgba(0,0,0,0.3)';
+    ctx.shadowBlur = 8;
+    ctx.beginPath();
+    ctx.arc(50 + i*36, h-40, 12, 0, Math.PI*2);
+    ctx.fill();
+    ctx.shadowBlur = 0;
+  });
+
+  // Watermark
+  ctx.fillStyle = 'rgba(255,255,255,0.04)';
+  ctx.font = `900 ${w*0.15}px 'Playfair Display', serif`;
+  ctx.textAlign = 'center';
+  ctx.fillText(fc.label.toUpperCase(), w*0.5, h*0.9);
+}
+
+// ========== RENDER FABRIC GRID ==========
+function renderFabricGrid() {
+  const grid = document.getElementById('fabricGrid');
+  grid.innerHTML = fabrics.map((f, i) => {
+    const fc = fabricColors[f.id];
+    return `
+    <div class="fabric-card reveal reveal-d${(i%3)+1}" onclick="openModal('${f.id}')" data-fabric="${f.id}">
+      <div class="fabric-card-img">
+        <canvas class="fc-canvas" data-id="${f.id}"></canvas>
+        <div class="fc-overlay"></div>
+        <div class="fc-gsm-badge">${f.gsm}</div>
+      </div>
+      <div class="fabric-card-body">
+        <div class="fc-colors">${fc.rolls.map(c=>`<div class="fc-dot" style="background:${c}"></div>`).join('')}</div>
+        <div class="fc-title">${f.name}</div>
+        <div class="fc-uses">${f.uses.join(' · ')}</div>
+        <div class="fc-desc">${f.desc.slice(0,100)}...</div>
+        <a class="fc-link">View Details <span>→</span></a>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Draw canvases
+  document.querySelectorAll('.fc-canvas').forEach(c => {
+    drawFabricCardCanvas(c, c.dataset.id);
+  });
+  observeReveal();
+}
+
+// ========== AVAILABLE FABRICS ==========
+function renderAFGrid() {
+  const grid = document.getElementById('afGrid');
+  grid.innerHTML = availableFabrics.map((af,i) => `
+    <div class="af-card reveal reveal-d${(i%4)+1}">
+      <div class="af-name">${af.name}</div>
+      <div class="af-gsm">${af.gsm}</div>
+      <div class="af-detail">${af.detail}</div>
+    </div>
+  `).join('');
+  observeReveal();
+}
+
+// ========== MODAL ==========
+function openModal(id) {
+  const f = fabrics.find(x=>x.id===id);
+  if(!f) return;
+  const fc = fabricColors[id];
+
+  // Image
+  const imgDiv = document.getElementById('modalImg');
+  imgDiv.innerHTML = `<button class="modal-close" onclick="closeModal()">✕</button><canvas id="modalCanvas"></canvas>`;
+  const mc = document.getElementById('modalCanvas');
+  mc.style.width='100%'; mc.style.height='100%';
+  const dpr = window.devicePixelRatio||1;
+  mc.width = 860*dpr; mc.height = 280*dpr;
+  const ctx = mc.getContext('2d');
+  ctx.scale(dpr,dpr);
+  const bg = ctx.createLinearGradient(0,0,860,280);
+  bg.addColorStop(0, shadeColor(fc.body,-30));
+  bg.addColorStop(1, shadeColor(fc.body,-50));
+  ctx.fillStyle = bg; ctx.fillRect(0,0,860,280);
+  drawFabricRollOnCtx(ctx, 430, 40, 350, 200, fc.body, fc.top, '');
+  ctx.fillStyle='rgba(255,255,255,0.03)';
+  ctx.font="900 120px 'Playfair Display',serif";
+  ctx.textAlign='center';
+  ctx.fillText(f.name.toUpperCase(),430,260);
+
+  document.getElementById('modalContent').innerHTML = `
+    <div class="modal-label">${f.material}</div>
+    <div class="modal-title">${f.name}</div>
+    <div class="modal-desc">${f.desc}</div>
+    <div class="modal-specs">
+      <div class="spec-item"><div class="spec-label">GSM Range</div><div class="spec-val">${f.gsm}</div></div>
+      <div class="spec-item"><div class="spec-label">Finish</div><div class="spec-val">${f.finish}</div></div>
+      <div class="spec-item"><div class="spec-label">Colours</div><div class="spec-val">100+ Options</div></div>
+    </div>
+    <h4 style="font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:12px">Ideal For</h4>
+    <div class="use-tags">${f.uses.map(u=>`<div class="use-tag">${u}</div>`).join('')}</div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center">
+      <button class="modal-enquire-btn" onclick="closeModal();document.getElementById('enquiry').scrollIntoView({behavior:'smooth'})">Enquire About This →</button>
+      <div style="display:flex;gap:6px">${fc.rolls.map(c=>`<div style="width:20px;height:20px;border-radius:50%;background:${c};box-shadow:0 3px 8px rgba(0,0,0,.3)"></div>`).join('')}</div>
+    </div>`;
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.getElementById('modalOverlay').addEventListener('click', function(e) {
+  if(e.target===this) closeModal();
+});
+
+// ========== COPY / PHONE ==========
+function copyPhone(num) {
+  navigator.clipboard.writeText(num).then(()=>showToast('📞 Number copied: '+num));
+  logVisitor('phone_copy', num);
+}
+function copyText(text, msg) {
+  navigator.clipboard.writeText(text).then(()=>showToast(msg||'Copied!'));
+}
+function showToast(msg) {
+  const t = document.getElementById('copyToast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'), 2500);
+}
+
+// ========== GOOGLE SHEETS INTEGRATION ==========
+// Replace this URL with your actual Google Apps Script Web App URL
+const SHEET_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+
+function submitToSheet(e, formType) {
+  e.preventDefault();
+  const form = e.target;
+  const btn = form.querySelector('.form-submit');
+  const origText = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = 'Sending...';
+
+  const data = new FormData(form);
+  const payload = { type: formType, timestamp: new Date().toISOString() };
+  data.forEach((v,k) => payload[k] = v);
+
+  // Try sending to Google Sheets
+  fetch(SHEET_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  }).then(() => {
+    btn.textContent = '✓ Submitted Successfully!';
+    btn.classList.add('success');
+    form.reset();
+    setTimeout(() => {
+      btn.textContent = origText;
+      btn.disabled = false;
+      btn.classList.remove('success');
+    }, 3500);
+  }).catch(() => {
+    // Still show success (no-cors doesn't return status)
+    btn.textContent = '✓ Submitted Successfully!';
+    btn.classList.add('success');
+    form.reset();
+    setTimeout(() => {
+      btn.textContent = origText;
+      btn.disabled = false;
+      btn.classList.remove('success');
+    }, 3500);
+  });
+
+  // Store locally as backup
+  const stored = JSON.parse(localStorage.getItem('sbc_enquiries') || '[]');
+  stored.push(payload);
+  localStorage.setItem('sbc_enquiries', JSON.stringify(stored));
+
+  return false;
+}
+
+function logVisitor(action, detail) {
+  try {
+    fetch(SHEET_URL, {
+      method: 'POST', mode: 'no-cors',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type:'visitor_log', action, detail, timestamp: new Date().toISOString() })
+    });
+  } catch(e) {}
+}
+
+// ========== ENQUIRY TABS ==========
+function switchTab(tab, el) {
+  document.querySelectorAll('.eq-tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  document.querySelectorAll('.eq-panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+tab).classList.add('active');
+}
+
+// ========== MAP SEARCH ==========
+function searchMap() {
+  const q = document.getElementById('mapSearch').value.trim();
+  if(!q) return;
+  const iframe = document.getElementById('gmap');
+  iframe.src = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125323.4!2d77.27!3d11.1085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s${encodeURIComponent(q+', Tirupur')}!5e0!3m2!1sen!2sin`;
+}
+
+// ========== NAVBAR SCROLL ==========
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+});
+
+// ========== REVEAL OBSERVER ==========
+function observeReveal() {
+  const els = document.querySelectorAll('.reveal:not(.observed)');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});
+  },{threshold:.1});
+  els.forEach(el=>{io.observe(el);el.classList.add('observed');});
+}
+
+// ========== HERO 3D TILT ==========
+const heroScene = document.getElementById('hero3dScene');
+if(heroScene) {
+  document.addEventListener('mousemove', e => {
+    const rect = heroScene.parentElement.getBoundingClientRect();
+    if(e.clientX < rect.left - 100 || e.clientX > rect.right + 100) return;
+    const cx = rect.left + rect.width/2, cy = rect.top + rect.height/2;
+    const dx = (e.clientX-cx)/(rect.width/2), dy = (e.clientY-cy)/(rect.height/2);
+    heroScene.style.transform = `rotateY(${dx*10}deg) rotateX(${-dy*6}deg)`;
+    heroScene.style.animation = 'none';
+  });
+}
+
+// ========== MOBILE NAV ==========
+function openMobileNav(){document.getElementById('mobileNav').classList.add('open')}
+function closeMobileNav(){document.getElementById('mobileNav').classList.remove('open')}
+
+// ========== 3D CARD HOVER ==========
+document.addEventListener('mousemove', e => {
+  document.querySelectorAll('.fabric-card').forEach(card => {
+    const rect = card.getBoundingClientRect();
+    if(e.clientX>=rect.left&&e.clientX<=rect.right&&e.clientY>=rect.top&&e.clientY<=rect.bottom){
+      const dx=(e.clientX-rect.left-rect.width/2)/(rect.width/2);
+      const dy=(e.clientY-rect.top-rect.height/2)/(rect.height/2);
+      card.style.transform=`translateY(-10px) rotateX(${-dy*5}deg) rotateY(${dx*5}deg) scale(1.02)`;
+    } else {
+      card.style.transform='';
+    }
+  });
+});
+
+// ========== INIT ==========
+renderHeroRolls();
+renderFabricGrid();
+renderAFGrid();
+drawAboutScene();
+observeReveal();
+
+// Redraw about on resize
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(drawAboutScene, 200);
+});
+</script>
+</body>
+</html>
