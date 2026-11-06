@@ -6,7 +6,7 @@ A project repository for Bhagavathy Amman Fabrics, created and maintained by Jas
 
 ## 🌐 Live Demo & Preview
 <!-- ADD YOUR LIVE DEMO LINK BELOW -->
-> 🚀 **Live Demo**: https://sole-shoes-ten.vercel.app/  
+> 🚀 **Live Demo**:https://sree-bhagavathy-clothing.vercel.app/  
 > *(Deploy to Vercel, Netlify, Render, or GitHub Pages and paste your live link above)*
 
 ---
